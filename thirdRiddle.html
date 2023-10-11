@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Savage Riddles - Riddle 3</title>
+  </head>
+  <body class="punk-rock-theme">
+    <h1>Riddle 1</h1>
+    <p>Score: <span id="score">0</span> | Lives: <span id="lives">3</span></p>
+    <p>Your riddle here?</p>
+    <button onclick="checkAnswer('Correct answer', 'fourthRiddle.html')">
+      Submit Answer
+    </button>
+
+    <script src="main.js"></script>
+    <script>
+      const timeLimit = 30; // Set time limit for this riddle (in seconds)
+      document.getElementById("score").innerText = score;
+      document.getElementById("lives").innerText = lives;
+      startTimer(timeLimit, "secondRiddle.html");
+    </script>
+  </body>
+</html>
