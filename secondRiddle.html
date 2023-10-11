@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Savage Riddles - Riddle 2</title>
+  </head>
+  <body class="punk-rock-theme">
+    <h1>Riddle 2</h1>
+
+    <p>
+      Score: <span id="score"></span> | Lives: <span id="lives"></span> | Timer:
+      <span id="timer"></span>
+    </p>
+
+    <p>riddle here</p>
+
+    <button onclick="checkAnswer1('thirdRiddle.html')">Test your luck</button>
+
+    <script src="main.js"></script>
+    <script>
+      document.getElementById("score").innerText = localStorage.getItem("score") || 0;
+      const timeLimit = 45;
+      document.getElementById("lives").innerText = lives;
+      startTimer(timeLimit, "firstRiddle.html");
+    </script>
+    <!-- Include this script at the end of the body tag -->
+    <script>
+      document.getElementById("score").innerText =
+        localStorage.getItem("score") || 0;
+    </script>
+  </body>
+</html>

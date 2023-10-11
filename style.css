@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  font-family: "Arial", sans-serif;
+  background-image: url("/images/YouPageBackground.jpg");
+  background-color: black;
+  justify-content: center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100vh;
+flex-direction: column;
+
+}
+
+#navBar {
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.599);
+}
+
+#container{
+  justify-content: center;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#welcome{
+  justify-content: center;
+  text-align: center;
+  color: rgb(245, 241, 244);
+  text-shadow: 2px 2px 5px rgb(14, 1, 7);
+}
+
+#rules {
+  color: rgb(250, 249, 249);
+  text-align: center;
+  justify-content: center;
+  background-color: rgba(151, 6, 143, 0.497);
+    text-shadow: 2px 2px 5px rgb(252, 3, 128);
+}
+
+button {
+  background-color: rgba(151, 6, 143, 0.497);
+}
